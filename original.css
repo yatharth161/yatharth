@@ -1,0 +1,395 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#051F20;
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* About section */
+#about {
+    background-color:#0D2826 ; /* Dark background to match the image */
+    color: #fff; /* White text for contrast */
+    padding: 40px 20px; /* Padding for spacing */
+    margin: 20px 0; /* Margin to separate from other sections */
+    border-radius: 10px; /* Rounded corners for a polished look */
+    max-width: 800px; /* Constrain width for consistency */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+#about h2 {
+    text-align: center;
+    color: #f39c12;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Header styling */
+header {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #f39c12;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color:#f39c12;
+    color: #121212;
+}
+
+
+
+
+/* Contact section */
+#contact {
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #f39c12;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a img {
+    transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Footer styling */
+footer {
+    background-color: #1d1d1d;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+footer p {
+    color: #f1f1f1;
+    font-size: 1.1em;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #D6E4FF; /* Light blue */
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #A3C4FF; /* Darker blue on hover */
+    transform: scale(1.1);
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* Home section */
+#home {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #f39c12;
+    margin-bottom: 20px;
+}
+
+
+#home p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+
+
+/* Resume section */
+#resume {
+    margin-bottom: 40px;
+}
+
+#resume h2 {
+    text-align: center;
+    color:#f39c12;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.certifications {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .cert-text, .cert-buttons {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+.resume-container {
+    background-color: #0D2826 ;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;/* change the size */
+    margin: 0 auto;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h3 {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+
+.resume-section ul {
+    list-style: none;
+}
+
+.resume-section ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #5f973d;
+}
+
+.view-btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color:#f39c12;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #7d5006; /* Slightly lighter cyan on hover */
+}
+
+#skills {
+    background-color: #0D2826 ; /* Dark background to match the image */
+    color: #fff; /* White text for contrast */
+    padding: 40px 20px; /* Padding for spacing */
+    margin: 20px 0; /* Margin to separate from other sections */
+    border-radius: 10px; /* Rounded corners for a polished look */
+    max-width: 800px; /* Constrain width for consistency */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color:  #f39c12;
+}
+
+#skills h2 span {
+    color: #f39c12; /* Cyan color for "Skills" */
+   
+}
+
+#skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.technical-skills {
+    width: 100%;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill span:first-of-type {
+    width: 80px; /* Fixed width for skill names to align progress bars */
+    text-align: left;
+    font-weight: bold;
+}
+
+.progress {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #444; /* Gray background for the progress bar */
+    border-radius: 5px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #1d7e3e; /* Cyan fill for the progress bar */
+    border-radius: 5px;
+    transition: width 1s ease-in-out; /* Smooth animation for progress */
+}
+
+.skill span:last-of-type {
+    width: 40px;
+    text-align: right;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    #skills {
+        padding: 20px 10px;
+    }
+
+    #skills h2 {
+        font-size: 2rem;
+    }
+
+    #skills h3 {
+        font-size: 1.2rem;
+    }
+
+    .skill img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .skill span:first-of-type {
+        width: 60px;
+    }
+
+    .skill span:last-of-type {
+        width: 30px;
+    }
+}
+
